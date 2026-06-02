@@ -1,0 +1,20 @@
+{
+  "watch": [
+    "src",
+    "index.html",
+    "package.json"
+  ],
+  "ext": "js,jsx,css,html,json",
+  "ignore": [
+    "node_modules",
+    "dist",
+    ".git",
+    ".gitignore"
+  ],
+  "delay": 500,
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs",
+  "verbose": false
+}
